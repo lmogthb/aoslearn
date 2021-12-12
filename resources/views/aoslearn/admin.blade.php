@@ -4,7 +4,7 @@
 <a class="btn btn-info mt-1" role="button" href="{{ route('categoria.create') }}">{{ __('Añadir nueva categoria')}}</a>
 <br>
 <h2>{{ __('Solicitudes actuales')}}</h2>
-<table class="table table-striped table-responsive">
+<table class="table table-striped table-responsive-md">
     <thead>
         <tr>
             <th scope="col">ID</th>
