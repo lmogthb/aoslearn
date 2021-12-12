@@ -98,6 +98,7 @@ class RecursoController extends Controller
         ]);
         
         $recurso->save();
+        notify()->success('Recurso editado correctamente');
         return redirect()->route('adminActuales');
     }
 
@@ -111,6 +112,7 @@ class RecursoController extends Controller
     {
         $recurso = DB::table('recursos')->where('id', $id);
         $recurso->delete();
+        notify()->success('Recurso eliminado correctamente');
         return redirect()->route('adminActuales');
     }
 }

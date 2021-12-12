@@ -58,6 +58,7 @@ class SolicitudController extends Controller
         ]);
 
         $solicitud->save();
+        notify()->success('Solicitud enviada, en revision por Administrador');
         return redirect()->route('index');
     }
 

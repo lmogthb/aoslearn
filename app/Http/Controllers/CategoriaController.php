@@ -53,6 +53,7 @@ class CategoriaController extends Controller
         ]);
 
         $categoria->save();
+        notify()->success('Categoria añadida correctamente');
         return redirect()->route('adminActuales');
     }
 
