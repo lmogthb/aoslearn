@@ -23,7 +23,6 @@
         @yield('content')
         <x:notify-messages />
     </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     @notifyJs
