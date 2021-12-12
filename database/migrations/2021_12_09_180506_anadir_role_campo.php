@@ -14,7 +14,7 @@ class AnadirRoleCampo extends Migration
     public function up()
     {
         Schema::table('users', function ($table) {
-            $table->string('rol')->nullable();
+            $table->string('rol')->default('user');;
         });
     }
 
