@@ -42,10 +42,6 @@
             </div>
          </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-         <input class="form-control mr-sm-2" type="buscar" placeholder="{{ __('Buscar')}}" aria-label="Buscar">
-         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">{{ __('Buscar')}}</button>
-      </form>
       <ul class="nav navbar-nav ml-auto">
       <?php if(Auth::check()) : ?>
          <form action="{{ route('logout') }}" method="POST" style="display:inline">

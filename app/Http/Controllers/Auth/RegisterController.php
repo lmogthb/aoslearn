@@ -64,6 +64,7 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        notify()->success('Hola '.$data['name'].', bienvenido a AOSLearn');
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],

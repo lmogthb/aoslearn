@@ -98,7 +98,7 @@ body {
 
 input,
 textarea {
-    padding: 10px 12px 10px 12px;
+    padding: 10px 12px 10px 12px!important;
     border: 1px solid lightgrey;
     border-radius: 2px;
     margin-bottom: 5px;
