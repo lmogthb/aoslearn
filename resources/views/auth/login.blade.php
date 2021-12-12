@@ -11,7 +11,7 @@
                     @csrf
                         <div class="row px-3">
                             <label class="mb-1">
-                                <h6 class="mb-0 text-sm">Correo</h6>
+                                <h6 class="mb-0 text-sm">{{ __('Correo')}}</h6>
                             </label> 
                         <input type="text" name="email" placeholder="{{ __('Introduzca un correo valido')}}" value="">
                         @if($errors->has('email'))
@@ -21,7 +21,7 @@
                         <br>
                         <div class="row px-3"> 
                             <label class="mb-1">
-                                <h6 class="mb-0 text-sm">Contraseña</h6>
+                                <h6 class="mb-0 text-sm">{{ __('Contraseña')}}</h6>
                             </label> 
                             <input type="password" name="password" placeholder="{{ __('Introduzca su contraseña')}}" value=""> 
                             @if($errors->has('password'))

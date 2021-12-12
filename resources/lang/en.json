@@ -33,5 +33,15 @@
     "Introduzca un correo valido": "Insert a valid email",
     "Introduzca su contraseña": "Insert your password",
     "Añadir": "Add",
-    "IR AL ENLACE": "GO TO LINK"
+    "IR AL ENLACE": "GO TO LINK",
+    "Crear cuenta": "Create account",
+    "Crear una cuenta en AOSLearn": "Create account at AOSLearn",
+    "Nombre": "Name",
+    "Contraseña": "Password",
+    "Confirmar contraseña": "Confirm password",
+    "Correo": "Email",
+    "Introduzca su nombre": "Insert your name",
+    "Introduzca su correo": "Insert your email",
+    "Confirme su contraseña": "Confirm your password",
+    "¿Ya tiene una cuenta?": "Already have an account?"
 }
