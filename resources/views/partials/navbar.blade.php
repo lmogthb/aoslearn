@@ -59,5 +59,8 @@
          </li>
       <?php endif?>
       </ul>
+      <?php if(Auth::check()) : ?>
+         <span class="navbar-text">{{ Auth::user()->name }}</span>
+      <?php endif?>
    </div>
 </nav>

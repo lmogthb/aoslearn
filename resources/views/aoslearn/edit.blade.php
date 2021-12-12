@@ -28,7 +28,7 @@
   </div>
   <div class="form-group">
     <label for="cat">{{ __('Categoria')}}</label>
-    <select id="categorias" name="categorias">
+    <select style="border:1px solid" class="form-select" id="categorias" name="categorias">
     @foreach( $categorias as $categoria )
     <?php if($categoria->nombre_categoria == $recurso->nombre_categoria) : ?>
         <option value="{{$categoria->id_categoria}}" selected>{{$categoria->nombre_categoria}}</option>
