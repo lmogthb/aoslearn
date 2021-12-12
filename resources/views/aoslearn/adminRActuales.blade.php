@@ -1,16 +1,14 @@
 @extends('layouts.master')
 @section('content')
-<div class="text-left">
-    <a class="btn btn-success" role="button" href="{{ route('admin.index') }}">{{ __('Mostrar solicitudes actuales')}}</a>
-    <a class="btn btn-info" role="button" href="{{ route('categoria.create') }}">{{ __('Añadir nueva categoria')}}</a>
-</div>
+<a class="btn btn-success mt-1" role="button" href="{{ route('admin.index') }}">{{ __('Mostrar solicitudes actuales')}}</a>
+<a class="btn btn-info mt-1" role="button" href="{{ route('categoria.create') }}">{{ __('Añadir nueva categoria')}}</a>
 <br>
 <h2>{{ __('Recursos actuales')}}</h2>
-<table class="table table-striped">
+<table class="table table-striped table-responsive">
     <thead>
         <tr>
             <th scope="col">ID</th>
-            <th scope="col">Titulo</th>
+            <th scope="col">{{ __('Titulo')}}</th>
             <th scope="col">Video</th>
             <th scope="col">Autor</th>
             <th scope="col">{{ __('Categoria')}}</th>
