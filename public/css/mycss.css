@@ -1,3 +1,7 @@
 .container {
     padding-top: 10px;
 }
+.embed-responsive {
+    max-width:326px;
+    max-height:310px;
+ }
