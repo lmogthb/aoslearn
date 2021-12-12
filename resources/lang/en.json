@@ -4,9 +4,11 @@
     "Categorias": "Categories",
     "Panel de Administrador": "Admin Panel",
     "Buscar": "Search",
+    "¿No tiene una cuenta?": "Don't you have an account yet?",
     "Cerrar sesión": "Log out",
     "Solicitar la subida de un video": "Request the upload of a video",
     "Titulo del video": "Video title",
+    "Iniciar sesion en AOSLearn": "Log in into AOSLearn",
     "Introduce un titulo": "Insert a title",
     "Maximo de caracteres: 31 (cuentan espacios)": "Maximum characters: 31 (spaces count)",
     "Enlace de video embed": "Link of embed video",
@@ -18,6 +20,7 @@
     "Enviar": "Send",
     "Iniciar Sesion": "Log in",
     "Registrarse": "Register",
+    "Volver Atras": "Go back",
     "Mostrar recursos actuales || Acciones": "Show actual resources || Actions",
     "Añadir nueva categoria": "Add new category",
     "Solicitudes actuales": "Actual requests",
@@ -27,6 +30,8 @@
     "Añadir categoria": "Add category",
     "Titulo del video": "Video title",
     "Introduce el nombre de la categoria": "Insert the category name",
+    "Introduzca un correo valido": "Insert a valid email",
+    "Introduzca su contraseña": "Insert your password",
     "Añadir": "Add",
     "IR AL ENLACE": "GO TO LINK"
 }
