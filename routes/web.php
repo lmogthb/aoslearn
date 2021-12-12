@@ -26,16 +26,15 @@ Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'App\Http\Controller
 
 Route::name('index')->get('/', [App\Http\Controllers\RecursoController::class, 'index']);
 
+Route::middleware(['auth', 'role:admin'])->group(function () {
+    Route::name('active')->put('/solicitud/{id}/active', [App\Http\Controllers\SolicitudController::class, 'activeSolicitud']);
+    Route::name('adminActuales')->get('/admin/actuales', [App\Http\Controllers\AdminController::class, 'getAdminRecActual']);
+});
+
 Route::resource('recurso', RecursoController::class)->parameters(['recurso' => 'id']);
 Route::resource('categoria', CategoriaController::class);
 Route::resource('solicitud', SolicitudController::class);
 Route::resource('admin', AdminController::class);
-
-
-Route::middleware(['auth', 'role:admin'])->group(function () {
-    Route::name('active')->put('/solicitudes/{id}/active', [App\Http\Controllers\SolicitudController::class, 'activeSolicitud']);
-    Route::name('adminActuales')->get('/adminp/actuales', [App\Http\Controllers\AdminController::class, 'getAdminRecActual']);
-});
 
 
 
