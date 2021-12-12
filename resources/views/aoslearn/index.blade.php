@@ -11,10 +11,10 @@
             <p class="card-text">{{$recurso->autor}}</p>
             <div class="row">
                <div class="col">
-               <iframe width="310" height="310" src="{{$recurso->video}}" frameborder="0" allowfullscreen></iframe>
+               <iframe class="responsive-iframe" width="310" height="310" src="{{$recurso->video}}" frameborder="0" allowfullscreen></iframe>
                </div>
                <div class="col">
-                  <a href="{{$recurso->video}}" target="_blank" class="btn btn-success btn-block" >{{ __('IR AL ENLACE')}}</a>
+                  <a href="{{$recurso->video}}" target="_blank" class="btn btn-success btn-block mt-1" >{{ __('IR AL ENLACE')}}</a>
                </div>
             </div>
          </div>

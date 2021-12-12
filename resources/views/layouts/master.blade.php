@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/mycss.css') }}">
     <link rel="stylesheet" href="{{ asset('fawesome/css/font-awesome.min.css') }}">
 
+
     <title>AOSLearn</title>
   </head>
   <body>

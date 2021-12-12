@@ -16,7 +16,7 @@
                <iframe width="310" height="310" src="{{$recursoCat->video}}" frameborder="0" allowfullscreen></iframe>
                </div>
                <div class="col">
-                  <a href="{{$recursoCat->video}}" target="_blank" class="btn btn-success btn-block" >{{ __('IR AL ENLACE')}}</a>
+                  <a href="{{$recursoCat->video}}" target="_blank" class="btn btn-success btn-block mt-1" >{{ __('IR AL ENLACE')}}</a>
                </div>
             </div>
          </div>
